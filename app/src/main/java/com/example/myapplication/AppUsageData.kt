@@ -9,4 +9,5 @@ data class AppUsageData(
     var package_name: String,
     var time_usage: Long = 0,
     var limit_time: Long = -1,
+    var time_left: Long = -1,
 )
